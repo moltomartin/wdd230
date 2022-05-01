@@ -30,7 +30,7 @@ border-radius: 8px;
 }
 footer{
     margin: 1rem auto;
-    border: 1px solid bisque;
+    border: 2px solid bisque;
     background-color: rgb(27, 26, 85);
     padding-left: 13rem;
     box-shadow: 6px 6px 6px #999;
@@ -41,7 +41,9 @@ h1 {color:aliceblue;
     text-align: center;
     
 }
-p{color:aliceblue}
+p{color:aliceblue;
+    
+}
 h2{padding-left: .7rem;
 font-size: 2em;
 }
