@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:wght@300&family=Sansita+Swashed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-size: 16px;
+    font-size: 8px;
     background-color: bisque;
+    font-family: "Poppins", sans-serif, "Arial";
 }
 header, main, footer{
     max-width: 700px;
@@ -22,12 +26,15 @@ header{
     box-shadow: 6px 6px 6px #999;
     border-radius: 8px;
 }
+
 header img{
-width: 100%;
-height: auto;
-box-shadow: 6px 6px 6px rgb(36, 28, 28);
-border-radius: 8px;
-}
+    width: 50%;
+    height: auto;
+    box-shadow: 3px 3px 3px rgb(36, 28, 28);
+    border-radius: 5px;
+    
+
+    }
 footer{
     margin: 1rem auto;
     border: 2px solid bisque;
@@ -35,10 +42,11 @@ footer{
     padding-left: 13rem;
     box-shadow: 6px 6px 6px #999;
     border-radius: 8px;
-    
+    font-family: 'Sansita', sans-serif;
 }
 h1 {color:aliceblue;
     text-align: center;
+    font-size: x-small;
     
 }
 p{color:aliceblue;
