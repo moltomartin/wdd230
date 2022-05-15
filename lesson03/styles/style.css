@@ -1,17 +1,13 @@
-.content {
-	max-width: 100%;
-	margin: 0 auto;
-}
+
 
 body {
-	font-family: 'Yaldevi', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background-color: #c2b1b1;
     
 }
 
 main {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+
 	
 	column-gap: 1rem;
 	padding: 1rem;
@@ -30,9 +26,9 @@ h1 {
 	width: 96%;
 	text-align: center;
 	font-weight: bold;
-    background-color: #56c87c;
-    color:black;
-    font-family: 'Yaldevi', sans-serif;
+    background-color: #4532D4;
+    color:White;
+    font-family: 'Ubuntu', sans-serif;
     padding: 10px;
     
 }
@@ -46,14 +42,16 @@ h3{
 
 
 img {
-	width: 95%;
+	max-width: 300px;
+	min-width: 100px;
 	object-fit: cover;
 	border-radius: 1rem;
     display: flex;
+	
 }
 
 p {
-	color: rgb(241, 230, 230);
+	color: rgb(0, 0, 0);
 	font-size: 1em;
 	padding: 1em;
 }
@@ -69,35 +67,7 @@ footer {
 }
 	
 
-
-
-@media only screen and (min-width: 60em) {
-	main {
-        display: grid;
-		grid-template-columns: 1fr 1fr 1fr;}
-}
-
-
-
-
-@media (max-width: 37.5em) {
-	main {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-	}
- 
-}	
-
-@media (max-width: 20.1em) {
-	main {
-		display: grid;
-		grid-template-columns: 1fr;
-		
-	}
-
    
-
-}
 nav {
 	display: flex;
 	flex-direction: column;
@@ -106,4 +76,6 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+	background-color: #51c58f;
 }
+.ta {color: white;}
