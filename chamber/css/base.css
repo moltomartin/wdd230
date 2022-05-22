@@ -9,6 +9,8 @@ nav button {
 }
 nav {
     background-color: #51c58f;
+    
+
 }
 
 nav ul {
@@ -24,7 +26,7 @@ nav ul li a {
     padding: .8rem 2vw;
     text-decoration: none;
     color: #333;
-    border-top:1px solid rgba(0,0,0,0.5),
+    border-top:2px solid rgba(0,0,0,0.5),
 }
 
 nav ul li a:hover {
@@ -42,8 +44,9 @@ nav ul {
 nav ul.open {
     display:block;
 }
+
 img {
-    max-width: 120px;
+    max-width: 100%;
 }
 
 #hambutton span:nth-child(1) {display:block;}
@@ -54,3 +57,20 @@ img {
 
 footer{background-color: #51c58f;
 text-align: center;}
+header main footer {
+    max-width: 100%;
+    background-color: #51c58f;
+    border-radius: 25px;
+}
+
+  .logo img{
+    max-width: 160px;
+    padding: 30px;
+  }
+  .social img{
+      max-width: 50px;
+      padding-right: 5px;
+    
+  }
+ 
+
