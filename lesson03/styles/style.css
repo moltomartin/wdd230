@@ -71,6 +71,7 @@ footer {
 nav {
 	display: flex;
 	flex-direction: column;
+	list-style-type: none;
 }
 nav ul {
     display: grid;

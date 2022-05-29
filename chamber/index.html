@@ -7,8 +7,9 @@
     <title>Chamber</title>
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
     
 
 </head>
@@ -17,48 +18,86 @@
         
        
          <nav>
-            
             <picture class="logo">
-            <img src="images/deportes.png" alt="Sports Logo">
-             </picture>
-             <h1>Sports Union <span>Chamber of Commerce</span></h1>
+                <img src="images/deportes.png" alt="Sports Logo">
+                 </picture>
+            <h1>Sports Union <span>Chamber of Commerce</span></h1>
+            
+            <div class="social">
+                <a href="https://facebook.com"><img src="images/facebookicon.png" alt="Facebook Page"></a>
+                <a href="https://linkedin.com"><img src="images/linkedinicon.png" alt="Linkedin Account Home"></a>
+                 </div>
+
+            
+            
             <button class="hambutton"><span>&#9776;</span><span>X</span></button>
             <ul class="navigation">
-                <li></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        
-            <div class="social">
-                <a href="https://facebook.com"><img src="images/facebookicon.png" alt="Facebook Page"></a>
-                <a href="https://linkedin.com"><img src="images/linkedinicon.png" alt="Linkedin Account Home"></a>
-                
-                        </div>
-                    
-        </nav>
-        
-        <div class="datetracker">
-            <span id="currentDate"></span>
-        </div>
+            <div id="currentDate"></div>
+            </nav>
+  
+            
     </header>
     <main>
-        <div class="hero">Hero with site name and call to action</div>
+        
+        <section class="content">
+        <div class="hero">Hero with site name and call to action
+        
+        <picture id="hero">
+            <source media="(max-width:200px)" srcset="image/wdd230-org200.jpg">
+            <source media="(max-width:500px)" srcset="images/wdd230-org500.jpg">
+            <source media="(max-width:800px)" srcset="images/wdd230-org800.jpg">
+            <img src="images/wdd230-org.jpg" alt="heroimage">
+                </picture>
+            </div>
         <article class="news">News Release</article>
         <div class="event">Event</div>
-        <div class="weather">Weather</div>
-        <div class="join">Join</div>
-
-        <div class="spotlight">
-<div class="spot">Spotlight 1</div>
-<div class="spot">Spotlight 2</div>
-<div class="spot">Spotlight 3</div>
+        <div class="weather">Weather<img src="images/weather.png" alt="weather">
+        <p class="actual-temperature"><span class="temperature"></span></p>
+        <div>
+            <p>Wind Speed: <span class="windVelocity">5.2</span>km/h</p>
+            <p>Wind Chill: <span class="windChill"></span></p>
         </div>
+    </div>
+
+        <div class="join">Join</div>
+        <div class="spotlight">
+<div class="spot1">Spotlight 1
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae totam eveniet architecto culpa quod alias
+     illum fuga officia maxime nesciunt, enim, asperiores ratione placeat molestiae vitae temporibus.
+      Fugiat, dolorum obcaecati.</p>    
+</div>
+<div class="spot2">Spotlight 2
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae totam eveniet architecto culpa quod alias
+        illum fuga officia maxime nesciunt, enim, asperiores ratione placeat molestiae vitae temporibus.
+         Fugiat, dolorum obcaecati.</p>
+</div>
+<div class="spot3">Spotlight 3
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae totam eveniet architecto culpa quod alias
+        illum fuga officia maxime nesciunt, enim, asperiores ratione placeat molestiae vitae temporibus.
+         Fugiat, dolorum obcaecati.</p>
+</div>
+        </div>
+    </section>
     </main>
     <footer>
-        <p>&copy; | 2022 | Martin Moltó | Mendoza-Argentina</p>
-        <p>Last Updated <span id="currentdate"></span>
+        <img class="logof" src="images/deportes.png" class="logo" alt="logo">
+        <div class="information">
+            <p class="title">Sport Union</p>
+            <p class="addres">Alsina 2244 Luzuriaga Maipu Mendoza-Argentina</p>
+            <div class="contact_info">
+                <p class="page">info@sportsunion.com ✉</p>
+                <p class="phone">+54261 - 1231231232 📞</p>
+                <a class="direction" href="https://goo.gl/maps/j7GPiJ46bBZhxpV4A">Location 📍</a>
+            </div>
+        
+        <div id="year"></div><p>© |Sports Union Chamber of Commerce | Martin Moltó | WDD 230 Project |
+        <p>Last Updated <span id="currentDate"></span></div>
+            
     </footer>
     <script src="js/script.js"></script>
 </body>

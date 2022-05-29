@@ -1,14 +1,12 @@
+const options = {weekday: "long" , day: "numeric" , month: "long" , year: "numeric"};
+document.getElementById("currentDate").textContent = new Date().toLocaleDateString("en-US" , options);
+
+
 const now = new Date();
 const fullDate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
 const currentYear = now.getFullYear();
 
-document.querySelector("currentdate").innerHTML = fullDate;
-document.querySelector("#copyrightupdatesmall_year").innerHTML = currentYear;
-document.getElementById("copyrightupdatesmall_lastup").innerHTML = document.lastModified;
-document.querySelector("#copyrightupdatemedium_year").innerHTML = currentYear;
-document.getElementById("copyrightupdatemedium_lastup").innerHTML = document.lastModified;
-document.querySelector("#copyrightupdatelarge_year").innerHTML = currentYear;
-document.getElementById("copyrightupdatelarge_lastup").innerHTML = document.lastModified;
+document.querySelector("currentDate").innerHTML = fullDate;
 
 
 function toggleMenu() {
@@ -19,3 +17,4 @@ function toggleMenu() {
 const x = document.getElementById("hambutton");
 
 x.onclick = toggleMenu;
+

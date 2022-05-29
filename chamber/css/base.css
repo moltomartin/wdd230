@@ -55,8 +55,14 @@ img {
 #hambutton.open span:nth-child(1) {display:none;}
 #hambutton.open span:nth-child(2) {display: block;}
 
-footer{background-color: #51c58f;
-text-align: center;}
+footer{
+    background-color: #51c58f;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
 header main footer {
     max-width: 100%;
     background-color: #51c58f;
@@ -64,13 +70,107 @@ header main footer {
 }
 
   .logo img{
-    max-width: 160px;
-    padding: 30px;
+    max-width: 90px;
+    padding: 10px;
+
   }
   .social img{
       max-width: 50px;
-      padding-right: 5px;
+      padding: 5px;
+      
     
   }
  
 
+.logo{
+    float: left;
+}
+.social{
+    float: right;
+}
+
+h1{
+    text-align: center;
+}
+
+
+    .content{
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 30vh 30vh 250px;
+        background-color:beige;
+        padding: 2px;
+        text-align: center;
+        
+    }
+   .event{
+       grid-column: 1/2;
+       grid-row: 1/2;
+       height: auto;
+       background-color:rgb(53, 56, 55);
+       color: white;
+       padding: 2px;
+       text-align: center;
+       border-style: double;
+   }
+   .weather{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: rgb(53, 56, 55);
+    color: white;
+    padding: 2px;
+    border-style: double;
+   }
+   p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+   .join{
+       display: block;
+       grid-column: 1/2;
+       grid-row: 3/4;
+       font-size: 15px;
+       background-color: rgb(53, 56, 55);
+       color: white;
+       padding: 2px;
+       text-align: center;
+       border-style: double;
+   }
+   .news{
+       grid-column: 2/3;
+       grid-row: 3/4;
+       background-color: rgb(53, 56, 55);
+       color: white;
+       padding: 2px;
+       text-align: center;
+       border-style: double;
+   }
+   .spotlight {
+    background-color: #4532D4;
+    color: #efefef;
+    grid-column: 3/4;
+    grid-row: 1/4;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    padding: 2px;
+    border-style: double;
+ }
+ body{
+     background-color: beige;
+ }
+
+.hero img{
+    width: 100%;
+
+    
+}
+.logof{
+    margin-right: 5px;
+    padding: 15px 5px 0 0;
+    width: 50px;
+    grid-column: 1;
+}
