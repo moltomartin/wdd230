@@ -70,7 +70,7 @@ header main footer {
 }
 
   .logo img{
-    max-width: 90px;
+    max-width: 100px;
     padding: 10px;
 
   }
@@ -101,7 +101,8 @@ h1{
         grid-template-rows: 30vh 30vh 250px;
         background-color:beige;
         padding: 2px;
-        text-align: center;
+        text-align: solid;
+        border-color: beige;
         
     }
    .event{
@@ -112,7 +113,8 @@ h1{
        color: white;
        padding: 2px;
        text-align: center;
-       border-style: double;
+       border-style: solid;
+       border-color: beige;
    }
    .weather{
     grid-column: 1/2;
@@ -120,7 +122,8 @@ h1{
     background-color: rgb(53, 56, 55);
     color: white;
     padding: 2px;
-    border-style: double;
+    border-style: solid;
+    border-color: beige;
    }
    p{
     color: white;
@@ -137,7 +140,8 @@ h1{
        color: white;
        padding: 2px;
        text-align: center;
-       border-style: double;
+       border-style: solid;
+       border-color: beige;
    }
    .news{
        grid-column: 2/3;
@@ -146,7 +150,8 @@ h1{
        color: white;
        padding: 2px;
        text-align: center;
-       border-style: double;
+       border-style: solid;
+       border-color: beige;
    }
    .spotlight {
     background-color: #4532D4;
@@ -157,7 +162,8 @@ h1{
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     padding: 2px;
-    border-style: double;
+    border-style: solid;
+    border-color: beige;
  }
  body{
      background-color: beige;
@@ -165,7 +171,6 @@ h1{
 
 .hero img{
     width: 100%;
-
     
 }
 .logof{
@@ -173,4 +178,21 @@ h1{
     padding: 15px 5px 0 0;
     width: 50px;
     grid-column: 1;
+}
+
+.spot1{
+    border-style: solid;
+    border-color: beige;
+}
+.spot2{
+    border-style: solid;
+    border-color: beige;
+}
+.spot3{
+    border-style: solid;
+    border-color: beige;
+}
+.hero{
+    border-style: solid;
+    border-color: beige;
 }
