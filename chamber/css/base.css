@@ -94,7 +94,7 @@ h1{
 }
 
 
-    .content{
+.content{
         margin: 20px;
         display: grid;
         grid-template-columns: 20% 60% 20%;
@@ -105,7 +105,7 @@ h1{
         border-color: beige;
         
     }
-   .event{
+.event{
        grid-column: 1/2;
        grid-row: 1/2;
        height: auto;
@@ -116,7 +116,7 @@ h1{
        border-style: solid;
        border-color: beige;
    }
-   .weather{
+.weather{
     grid-column: 1/2;
     grid-row: 2/3;
     background-color: rgb(53, 56, 55);
@@ -125,13 +125,13 @@ h1{
     border-style: solid;
     border-color: beige;
    }
-   p{
+p{
     color: white;
     font-size: 16px;
     text-align: center;
 
 }
-   .join{
+.join{
        display: block;
        grid-column: 1/2;
        grid-row: 3/4;
@@ -143,7 +143,7 @@ h1{
        border-style: solid;
        border-color: beige;
    }
-   .news{
+.news{
        grid-column: 2/3;
        grid-row: 3/4;
        background-color: rgb(53, 56, 55);
@@ -153,7 +153,7 @@ h1{
        border-style: solid;
        border-color: beige;
    }
-   .spotlight {
+.spotlight {
     background-color: #4532D4;
     color: #efefef;
     grid-column: 3/4;
@@ -165,7 +165,7 @@ h1{
     border-style: solid;
     border-color: beige;
  }
- body{
+body{
      background-color: beige;
  }
 
@@ -196,3 +196,56 @@ h1{
     border-style: solid;
     border-color: beige;
 }
+#currentDate{
+    color: black;
+}
+
+main {
+    min-width: 457px;
+    margin: 10px;
+    
+}
+h2 {
+    margin: 0;
+    background-color: #4532D4;
+    color: #fefefe;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px;
+}
+
+.population {
+    border: 1px solid #4532D4;
+}
+.population p {
+    margin-left: 10px;
+}
+
+.location {
+    border: 1px solid #4532D4;
+}
+
+.urban {
+    border: 1px solid #4532D4;
+}
+.graph {
+    width: 100%;
+    margin-left: 0;
+}
+.img_gallery {
+    border: 1px solid #4532D4;
+}
+.img_gallery h2 {
+    background-color: #4532D4;
+    color: #fefefe;
+    padding: 5px;
+    margin: 0;
+}
+.img_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img_content img {
+    margin: 10px;
+    width: 85%; 
+
+            }

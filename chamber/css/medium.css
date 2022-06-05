@@ -17,3 +17,53 @@ nav ul li a {
 }
 }
 
+.content_discover {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto auto auto auto;
+}
+.population {
+    grid-column: 1/2;
+}
+.location {
+    grid-column: 1/2;        
+}
+    
+.urban {
+    grid-column: 1/2;
+}
+h2{
+    text-align: center;
+}
+.img_gallery img {
+    max-width: 300px;
+    max-height: 400px;
+    border-radius: 5px 5px 0 0;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+.img_gallery img:hover {
+    border-radius: 150px 150px;
+    transition: 0.25s;
+} 
+.card {
+    background-color: #4532D4;
+    color: #fefefe;
+    max-width: 100%;
+    padding: 2px;
+    margin-top: 0;
+}
+
+.img_gallery {
+    grid-column: 2/3;
+    grid-row: 1/5;
+    margin-left: 10px;
+}
+.img_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    color:black ;
+}

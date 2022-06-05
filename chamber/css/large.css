@@ -6,5 +6,14 @@
     }
     
 
+    .content_discover {
+        grid-template-columns: 70% 3
+    }
+    .img_gallery img {
+        margin-left: 25px;
+    }
     
+    h1{
+        text-align: center;
+    }
     

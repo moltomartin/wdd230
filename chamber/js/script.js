@@ -6,7 +6,7 @@ const now = new Date();
 const fullDate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
 const currentYear = now.getFullYear();
 
-document.querySelector("currentDate").innerHTML = fullDate;
+document.querySelector("#currentDate").innerHTML = fullDate;
 
 
 function toggleMenu() {
@@ -17,4 +17,6 @@ function toggleMenu() {
 const x = document.getElementById("hambutton");
 
 x.onclick = toggleMenu;
+
+
 
