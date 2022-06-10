@@ -247,5 +247,12 @@ h2 {
 .img_content img {
     margin: 10px;
     width: 85%; 
+}
 
-            }
+#currentDate{
+    background-color:rgb(53, 56, 55);
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    padding: 15px;
+
+}
