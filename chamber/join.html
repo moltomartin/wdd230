@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    
+
+</head>
+<body>
+    <header>
+        
+       
+         <nav>
+            <picture class="logo">
+                <img src="images/deportes.png" alt="Sports Logo">
+                 </picture>
+            <h1>Sports Union <span>Chamber of Commerce</span></h1>
+            
+            <div class="social">
+                <a href="https://facebook.com"><img src="images/facebookicon.png" alt="Facebook Page"></a>
+                <a href="https://linkedin.com"><img src="images/linkedinicon.png" alt="Linkedin Account Home"></a>
+                 </div>
+
+            
+            
+            <button class="hambutton"><span>&#9776;</span><span>X</span></button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            </nav>
+  <p>
+    <span id="currentDate01"></span>
+  </p>
+            
+    </header>
+    <main id="join_form_page">
+        <div class="form_container">
+            <h1 class="form_title">Join us</h1>
+            <form method="get" action="thanks.html">
+                 <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Bussines Position Title <input type="text" minlength="7"></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="example@mail.com" required></label>
+                    <label class="top">Phone* <input type="tel" minlength="7" name="phone" placeholder="1234567890" required></label>
+                    <label class="top">Bussines Title* <input type="text" name="bussines" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Choose a Membership Level</legend>
+                    <label class="chose"><input type="radio" name="membership">NP Membership</label>
+                    <label class="chose"><input type="radio" name="membership">Bronze Membership</label>
+                    <label class="chose"><input type="radio" name="membership">Silver Membership</label>
+                    <label class="chose"><input type="radio" name="membership">Gold Membership</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Bussines Description</legend>
+                    <textarea name="area" id="description" cols="1" rows="10" placeholder="Type Here..."></textarea>
+                </fieldset>
+                <input type="hidden" id="full.datev" name="full-date" value="">
+                <input type="submit" value="Send my Appication" class="submitbtn">
+            </form>
+        </div>
+        <div class="membership_container">
+            <h1 class="member">Membership Details</h1>
+            <div class="npmember">
+                <h2>NP Membership</h2>
+                <ul>
+                    <li>NP Membership is for non profit organizations and there is no fee.</li>
+                    <li>Do you have access to our free services.</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Bonze Membership</h2>
+                <ul>
+                    <li>With the bronze membership you are part of our group.</li>
+                    <li>Do you have a 5% discount in all our companies members.</li>
+                    <li>Price: $50.00 per month.</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Silver Membership</h2>
+                <ul>
+                    <li>Do you have a 10% discount in all our companies members.</li>
+                    <li>Support with our experts, 2 sesions per month to help to growth.</li>
+                    <li>Price: $70.00 per month.</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Gold Membership</h2>
+                <ul>
+                    <li>Do you have a 15% and 20% discount in all our companies members.</li>
+                    <li>Support with a complete team to solve problems and archive goals.</li>
+                    <li>Like a part of our gold membership you are part of a group of invertors.</li>
+                    <li>Price: $100.00 per month.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img class="logof" src="images/deportes.png" alt="logo">
+        <div class="information">
+            <p class="title">Sport Union</p>
+            <p class="addres">Alsina 2244 Luzuriaga Maipu Mendoza-Argentina</p>
+            <div class="contact_info">
+                <p class="page">info@sportsunion.com ✉</p>
+                <p class="phone">+54261 - 1231231232 📞</p>
+                <a class="direction" href="https://goo.gl/maps/j7GPiJ46bBZhxpV4A">Location 📍</a>
+            </div>
+        
+        <div id="year"></div><p>© |Sports Union Chamber of Commerce | Martin Moltó | WDD 230 Project |
+        <p>Last Updated: <span id="currentDate"></span></div>
+            
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
