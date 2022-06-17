@@ -48,4 +48,14 @@
             
         }
     }
+    #currentDate01{
+        background-color:rgb(53, 56, 55);
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+        padding: 15px;
+    
+    }
+    #currentDate{
+        color: white;
+    }
     
