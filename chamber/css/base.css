@@ -110,7 +110,7 @@ h1{
        grid-column: 1/2;
        grid-row: 1/2;
        height: auto;
-       background-color:rgb(53, 56, 55);
+       background-color:#353837;
        color: white;
        padding: 2px;
        text-align: center;
@@ -313,7 +313,7 @@ label.chose {
     font-size: 1rem;
 }
 input.submitbtn {
-    font-family: 'Ubuntu', sans-serif;;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     border: none;
     background-color: #4532D4;
@@ -344,4 +344,100 @@ input.submitbtn:hover {
     text-align: center;
     color: black;
     font-family: 'Ubuntu', sans-serif;
+}
+
+/*Directory*/
+
+.directory {
+    
+	background-color: #eee;
+    color: black;
+}
+.directory-h1 {
+    background-color: #353837;
+    color: #fefefe;
+    margin: 0;
+    padding: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.menus {
+	margin: 0 auto;
+	padding: 1rem;
+	text-align: center;
+}
+.menus button {
+	padding: 5px 30px;
+    border-radius: 5px;
+    border:solid;
+    background-color: #424B54;
+    color: #51c58f;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+.menus button:hover {
+    background-color: #4D5057;
+    color: #fefefe;
+    transition: 0.20s;
+}
+section {
+	padding: 1rem;
+	background-color:#4532D4;
+    border: 3px solid beige;
+    border-radius: 5px;
+    font-size: 10px;
+    color: black;
+    
+    
+}
+.grid .cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    
+}
+.grid section {
+	flex-direction: column;
+	text-align: center;
+    margin: 0.75rem;
+    height: 250px;
+    padding: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color:black;
+}
+img {
+	height: 75px;
+	max-width: 100%;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+    color: black;
+}
+
+.list section {
+	align-items: center;
+    margin: 15px;
+    flex-direction: row;
+	justify-content: center;
+    color: black;
+    
+}
+.grid section > * {
+	margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+} 
+
+.list section > * {
+	margin: 0 1rem;
+	text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    
+}
+.list img {
+    display: none;
 }
