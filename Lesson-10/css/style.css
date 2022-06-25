@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(240, 179, 104);
+    text-align: center;
+    
+}
+h1{
+    font-family: 'Mukta', sans-serif;
+    color: #1919ecb3;
+}
+
+h2{
+    font-family: 'Mukta', sans-serif;
+    color: #1919ecb3; 
+}
+p{
+    color: #05795c;
+}
+footer{
+    padding-top: 350px;
+}

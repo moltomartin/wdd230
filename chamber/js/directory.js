@@ -25,7 +25,7 @@ fetch(requestURL)
    p.textContent=`Address: ${companie.Address}`;
    p2.textContent=`Phone Number: ${companie.Phone}`;
    p3.textContent=`WebSite: ${companie.Website}`;
-   p4.textContent=`Membership: ${companie.membership}`;
+   p4.textContent=`Membership: ${companie.Membership}`;
 
    
    portrait.setAttribute('src', companie.imageurl);
