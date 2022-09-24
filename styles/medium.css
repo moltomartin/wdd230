@@ -1,0 +1,37 @@
+@media only screen and (min-width: 32.5em){
+    h1{
+        text-align: left;
+        font-size: 3.8em; 
+        padding: 10px auto;  
+        color:black; 
+    }
+    h2{
+        font-size: 2rem;
+    }
+    header{
+       
+        border-radius: 20px;
+        width: 100%;
+        box-shadow:6px 6px 6px #1f1d1d;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    header img{
+        width:200px;
+        height: auto;
+        margin:10px 0 10px 50px;
+        border-radius: 15px;
+        box-shadow: 6px 6px 6px #1d1c1c;
+    }
+
+    footer{
+       
+        padding: 15px 0;
+        border-radius: 10px;
+        width: 100%;
+        box-shadow: 6px 6px 6px #1f1d1d;
+       
+        font-size: 1.2em;
+    }
+}
