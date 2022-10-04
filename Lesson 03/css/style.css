@@ -1,3 +1,5 @@
+/*---------------------------------------MOVIL----------------------------------------------*/
+
 *{
     margin:0 auto;
     padding: 0;
@@ -20,7 +22,7 @@ h1{
     font-family: 'Open Sans', sans-serif;
 }
 nav{
-    
+    margin: 0 auto;
     background-color: #F6F5AE;
     border-radius: 5px;
     border: solid 1.5px #565554;
@@ -29,13 +31,11 @@ nav{
 }
 nav ul{
     list-style: none;
-    
-    
-    
+    overflow:hidden;
 }
+
 nav ul li {
-    text-align: center;
-    width: 25%; 
+    text-align: center; 
     box-sizing: border-box;
 
    
@@ -132,6 +132,8 @@ footer{
     margin-top: 25px;
     border-radius: 5%;
 }
+
+/*-----------------------------------------------------TABLET-------------------------------------------------------*/
 @media only screen and (min-width: 37.5em) {
     body{
         max-width: 90%;
@@ -209,6 +211,8 @@ main {
         border-radius: 5%;
     }
 }
+
+/*-------------------------------------------COMPUTER---------------------------------------------------------*/
 
 @media only screen and (min-width: 60em) {
 	h1 {
