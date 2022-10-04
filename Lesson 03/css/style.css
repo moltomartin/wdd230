@@ -74,7 +74,7 @@ p{
 img{
     width: 50%;
     height: auto;
-    margin: 40px 0 0 100px;
+    margin: 40px 0 0 90px;
     align-items: center;
     box-shadow: 5px 5px 5px black;
     object-fit: cover;
@@ -159,7 +159,7 @@ main {
 	}
     img{
         width: 50%;
-       
+       margin-left:190px;
     }
 	
     article:nth-child(3) {
@@ -174,7 +174,7 @@ main {
         text-align: center;
         float: center;
         width: 50%;
-        margin: 20px 0 20px 120px;
+        margin: 20px 0 20px 160px;
         border-radius: 5%;
         padding:5px;
     }
@@ -183,7 +183,7 @@ main {
         text-align: center;
         float: center;
         width: 50%;
-        margin: 20px 0 20px 120px;
+        margin: 20px 0 20px 160px;
         padding:5px 5px 45px 5px;
     
         border-radius: 5%;
@@ -223,6 +223,10 @@ main {
 	article:nth-child(3) {
 		grid-column: span 1;
 	}
+    img{
+        width: 40%;
+        margin-left: 350px;
+    }
     .last{
         border-right: none;
         border-bottom: none;
