@@ -7,3 +7,12 @@ const fullDate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(no
 const currentYear = now.getFullYear();
 
 document.querySelector("#currentDate").innerHTML = fullDate;
+
+function toggleMenu(){
+    document.getElementById("primaryNav").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle("open");
+}
+
+const x = document.getElementById('hamburgerBtn')
+
+x.onclick = toggleMenu;

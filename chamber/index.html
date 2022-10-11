@@ -9,31 +9,60 @@
     <link rel="stylesheet" href="style/medium.css">
     <link rel="stylesheet" href="style/large.css">
     <link rel="stylesheet" href="style/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
  <header>
+    <img class="logo" src="image/maipulogo.jpg" alt="Maipú">
+    <h1>Maipú Chamber of Commerce</h1>
+    <div class="social">
+        <a href="https://facebook.com"><img src="image/facebookicon.png" alt="Facebook Page"></a>
+        <a href="https://linkedin.com"><img src="image/linkedinicon.png" alt="Linkedin Account Home"></a>
+    </div>
     <nav>
-        <img class="logo" src="image/maipulogo.jpg" alt="Maipú">
-        <h1>Maipú Chamber of Commerce</h1>
-        <section class="social">
-            <a href="https://facebook.com"><img src="image/facebookicon.png" alt="Facebook Page"></a>
-            <a href="https://linkedin.com"><img src="image/linkedinicon.png" alt="Linkedin Account Home"></a>
-        </section>
-        <ul class="navigation">
+       <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        
+        <ul id="primaryNav">
+            <li class="active"><a href="index.html">Home</a></li>
             <li><a href="#">Discover</a></li>
             <li><a href="#">Directory</a></li>
             <li><a href="#">Join</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="last"><a href="#">Contact</a></li>
         </ul>
     </nav>
     
  </header>
- <p  class="currentdate"><span id="currentDate01"></span></p>
-
+ <p class="currentdate"><strong><span id="currentDate01"></span></strong></p>
+<main>
+    <div class="content">
+        <div class="hero">Hero and call to action</div>
+        <div class="news">News Release</div>
+        <div class="event">Event</div>
+        <div class="weather">Weather</div>
+        <div class="join">Join</div>
+        <div class="spotlight">
+            <div class="spot1">Spotlight 1</div>
+            <div class="spot2">Spotlight 2</div>
+            <div class="spot3">Spotlight 3</div>
+        </div>
+    </div>
+</main>
  <footer>
-    <div id="year"></div><p>© |Maipú Chamber of Commerce | Martin Moltó | WDD 230 Project |
-        <p>Last Updated: <span id="currentDate"></span></div>
+    <img class="logo2" src="image/maipulogo.jpg" alt="Maipú">
+    <div class="information">
+        <p class="title">Maipú Chamber of Commerce</p>
+        <p class="address">Alsina 2244 Luzuriaga Maipu Mendoza-Argentina</p>
+    </div>
+        <div class="contact_info">
+            <p class="page">info@maipuchamber.com ✉</p>
+            <p class="phone">+54261 - 1231231232 📞</p>
+            <p class="direction">Location 📍</p>
+        </div>
+    <div id="year"><p>© |Maipú Chamber of Commerce | Martin Moltó | WDD 230 Project |
+        <p>Last Updated: <span id="currentDate"></span></p></div>
+
     <script src="script/script.js"></script>
  </footer>
 </body>
