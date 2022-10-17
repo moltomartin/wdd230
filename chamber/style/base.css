@@ -9,6 +9,13 @@ height: auto;
 margin: 0 auto;
 font-family: 'Arvo', serif;
 }
+#meetingbox{
+    background-color:#2E86AB;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
 header{    
     width: 100%;
     display: flex;
