@@ -56,6 +56,7 @@ header h1{
     font-size: 0.9em;
     align-items: center;
     padding: 5px 0;
+    color: white;
 }
 nav button{
     margin: .2rem 2vw;
@@ -88,7 +89,7 @@ nav ul li {
    
 }
 nav ul li :hover{
-    background-color:#d4a677 ;
+    background-color:#F24236 ;
 }
 
 nav ul li a{
@@ -105,7 +106,8 @@ nav ul li a:link, nav ul li a:visited{
 }
 
 nav ul li.active a{
-    background-color: #d4a677;
+    background-color: #F24236;
+    color: white;
 }
 
 #hamburgerBtn span:nth-child(1){display: block;}
