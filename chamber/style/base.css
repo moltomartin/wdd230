@@ -127,10 +127,11 @@ main{
     background-color: #cdcbc9cf;
 }
 .hero img{
-    position: relative;
+    
     width: 100%;
     height: fit-content;
     display: block;
+    
 }
 
 .news{

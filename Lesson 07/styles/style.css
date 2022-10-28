@@ -1,0 +1,28 @@
+* {
+    margin: 0 auto;
+}
+picture {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Poppins";
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif; 
+}
+img {
+    border: 2px solid #F24236;
+    padding: 1px;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 5px;
+}
+
+body {
+    background-color: #2E86AB;
+}
