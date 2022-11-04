@@ -1,0 +1,59 @@
+body{
+    background-color: bisque;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.titlebackground {
+    background-color: #1600a8;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+caption {
+    padding: 1rem;
+    font-size: 2.5rem;
+    box-shadow: 5px 5px 5px #999999;
+
+}
+
+table{
+    max-width: 40rem;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px #999999;
+    width: 35%;
+    text-align: center;
+    
+  }
+
+th, td{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 1rem;
+    color: white;
+}
+
+.pss {
+    background-color: #dfb538;
+    color: #FFFFFF;
+}
+
+tr:nth-child(odd){
+    background-color: #6758ca;
+}
+
+tr:nth-child(even){
+    background-color: #6758ca;
+}
+
+tfoot td{
+    font-size: .90rem;
+}
+
+.bf {
+    font-style: italic;
+}
+
+.august{
+    background-color: rgb(84, 150, 90);
+}

@@ -122,15 +122,16 @@ main{
 
 .hero{
     border:#F24236 solid 1px;
-    padding-bottom: 170px;
+  
     margin-bottom: 5px;
     background-color: #cdcbc9cf;
 }
 .hero img{
     
     width: 100%;
-    height: fit-content;
+    height: auto ;
     display: block;
+    object-fit: cover;
     
 }
 
@@ -190,4 +191,10 @@ footer{
     border-bottom: #F24236 solid 2px;
     margin-bottom: 10px;
     padding-bottom: 10px;
+}
+
+/*-------Discover----------*/
+
+.maindiscover{
+    text-align: center;
 }
