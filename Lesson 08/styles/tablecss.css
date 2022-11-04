@@ -20,7 +20,7 @@ caption {
 table{
     max-width: 40rem;
     margin: 0 auto;
-    box-shadow: 5px 5px 5px #999999;
+    box-shadow: 5px 5px 5px #8f5a5a;
     width: 35%;
     text-align: center;
     
@@ -46,13 +46,7 @@ tr:nth-child(even){
     background-color: #6758ca;
 }
 
-tfoot td{
-    font-size: .90rem;
-}
 
-.bf {
-    font-style: italic;
-}
 
 .august{
     background-color: rgb(84, 150, 90);
