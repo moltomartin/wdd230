@@ -37,8 +37,69 @@
     
  </header>
  <p class="currentdate"><strong><span id="currentDate01"></span></strong></p>
-<main>
-  
+<main class="form_page">
+    <div class="form_container">
+        <h1 class="form_title">Join us</h1>
+        <form method="get" action="thanks.html">
+             <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required="required"></label>
+                <label class="top">Last Name* <input type="text" name="lname" required="required"></label>
+                <label class="top">Bussines Position Title <input type="text" minlength="7"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="example@mail.com" required="required"></label>
+                <label class="top">Phone* <input type="tel" minlength="7" name="phone" placeholder="1234567890" required></label>
+                <label class="top">Bussines Title* <input type="text" name="bussines" required="required"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Choose a Membership Level</legend>
+                <label class="chose"><input type="radio" name="membership">NP Membership</label>
+                <label class="chose"><input type="radio" name="membership">Bronze Membership</label>
+                <label class="chose"><input type="radio" name="membership">Silver Membership</label>
+                <label class="chose"><input type="radio" name="membership">Gold Membership</label>
+            </fieldset>
+            <fieldset>
+                <legend>Bussines Description</legend>
+                <textarea name="area" id="description" cols="1" rows="10" placeholder="Type Here..."></textarea>
+            </fieldset>
+            <input type="hidden" id="full.datev" name="full-date" value="">
+            <input type="submit" value="Send my Appication" class="submitbtn">
+        </form>
+    </div>
+    <div class="membership_container">
+        <h1 class="member">Membership Details</h1>
+        <div class="npmember">
+            <h2 class="h2np">NP Membership</h2>
+            <ul>
+                <li class="abc">NP Membership is for non profit organizations and there is no fee.</li>
+                <li class="abc">Do you have access to our free services.</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="h2np">Bonze Membership</h2>
+            <ul>
+                <li class="abc">With the bronze membership you are part of our group.</li>
+                <li class="abc">Do you have a 5% discount in all our companies members.</li>
+                <li class="abc">Price: $50.00 per month.</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="h2np">Silver Membership</h2>
+            <ul>
+                <li class="abc">Do you have a 10% discount in all our companies members.</li>
+                <li class="abc">Support with our experts, 2 sesions per month to help to growth.</li>
+                <li class="abc">Price: $70.00 per month.</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="h2np">Gold Membership</h2>
+            <ul>
+                <li class="abc">Do you have a 15% and 20% discount in all our companies members.</li>
+                <li class="abc">Support with a complete team to solve problems and archive goals.</li>
+                <li class="abc">Like a part of our gold membership you are part of a group of invertors.</li>
+                <li class="abc">Price: $100.00 per month.</li>
+            </ul>
+        </div>
+    </div>
 </main>
  <footer>
     <img class="logo2" src="image/maipulogo.webp" alt="Maipú">

@@ -169,3 +169,31 @@ margin-top: 10px;
     border-bottom: none;
 }
 }
+
+/*------join------*/
+
+    .form_page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+   
+    .form_container {
+    grid-column: 1/2;
+    margin: 10px;
+    }
+    .membership_container {
+    display: block;
+    grid-column: 2/3;
+    margin: 10px 10px 10px 20px;
+    }
+    .member {
+    background-color: #2E86AB;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    }
+.abc {
+        margin-left: 20px;
+    }

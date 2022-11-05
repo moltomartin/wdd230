@@ -198,3 +198,107 @@ footer{
 .maindiscover{
     text-align: center;
 }
+
+/*---------Join---------*/
+.form_title {
+    background-color: #2E86AB;
+    font-family: 'Ubuntu', sans-serif;;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+fieldset {
+    border: 1px solid #F24236;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+legend {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+label.top {
+    display: block;
+    padding-top: 1.2rem;
+    color: black;
+    font-size: .8rem;
+}
+label.top input {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: .75rem;
+    width: 85%;
+    max-width: 24rem;
+    background-color: #e4e1e1;
+}
+label.top input:required {
+    border-left: red solid 5px;
+}
+label.top input:required:valid {
+    border-left: #51c58f solid 5px;
+}
+label.chose {
+    display: block;
+    padding-top: .5rem;
+    font-size: 1rem;
+}
+input.submitbtn {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    border: none;
+    background-color: #F24236;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+textarea {
+    width: 100%;
+    resize: none;
+    background-color: #e4e1e1;
+}
+input.submitbtn:hover {
+    background-color: #51c58f;
+}
+.membership_container {
+   display: none;
+   color: #1d1c1c;
+   background-color: white;
+}
+.thanks{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    border: solid 1px #F24236 ;
+    border-radius: 15px;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.thanks p{
+    text-align: center;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.fthanks{
+    margin-top: 200px;
+}
+.npmember{
+    color: #1d1c1c;
+    background-color: white;
+}
+.h2np{
+    background-color: #2E86AB;
+    color: white;
+    margin-top: 20px;
+    
+}
