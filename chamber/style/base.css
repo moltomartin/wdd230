@@ -14,6 +14,8 @@ font-family: 'Arvo', serif;
     color: white;
     text-align: center;
     padding: 10px;
+    border:none;
+    border-radius: none;
 
 }
 header{    
@@ -301,4 +303,98 @@ input.submitbtn:hover {
     color: white;
     margin-top: 20px;
     
+}
+/*Directory*/
+
+.directory-h1 {
+    background-color: #2E86AB;
+    color: white;
+    margin: 0;
+    padding: 5px 0;
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+.menu {
+	margin: 0 auto;
+	padding: 1rem;
+	text-align: center;
+}
+.menu button {
+	padding: 5px 30px;
+    border-radius: 5px;
+    border:solid;
+    background-color: #F24236;
+    color: white;
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+.menu button:hover {
+    background-color: #2E86AB;
+    color: white;
+    transition: 0.20s;
+}
+
+section {
+	padding: 1rem;
+	background-color:#2E86AB;
+    border: 3px solid #F24236 ;
+    border-radius: 5px;
+    font-size: 10px;
+    color: white;
+    
+    
+}
+.grid .cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Arvo', serif;
+    color: white;
+    
+}
+.grid section {
+	flex-direction: column;
+	text-align: center;
+    margin: 0.75rem;
+    height: 250px;
+    padding: 25px;
+    font-family: 'Arvo', serif;
+    color:white;
+}
+img {
+	height: 75px;
+	max-width: 100%;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+    color: white;
+}
+
+.list section {
+	align-items: center;
+    margin: 15px;
+    flex-direction: row;
+	justify-content: center;
+    color: white;
+    
+}
+.grid section > * {
+	margin: 0 auto;
+    font-family: 'Arvo', serif;
+} 
+
+.list section > * {
+	margin: 0 1rem;
+	text-align: center;
+    font-family: 'Arvo', serif;
+    color: white;
+    
+}
+.list img {
+    display: none;
 }

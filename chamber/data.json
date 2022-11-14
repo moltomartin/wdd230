@@ -1,0 +1,77 @@
+{
+    "directory":[
+    {
+    "Company":"Construplast",
+    "Address":"Ejercito Libertador 287",
+    "Phone":"4975213",
+    "Website":"https://www.construplast.com.ar",
+    "imageurl":"https://www.construplast.com.ar/datos/logo.png"
+
+    },
+    {
+    "Company":"Macowens",
+    "Address":"San Martín 35 Oeste",
+    "Phone":"0261 15-506-1223",
+    "Website":"https://www.macowens.com.ar/",
+    "imageurl":"https://www.macowens.com.ar/media/logo/stores/3/logo_macowens_360x32_1_.jpg"
+    
+    },
+    {
+    "Company":"Indumad S.A.",
+    "Address":"Carril Rodríguez Peña 2192",
+    "Phone":"493-1961",
+    "Website":"http://www.indumad.com.ar/",
+    "imageurl":"http://www.indumad.com.ar/images/logo-indumad.png"
+        
+    },
+    {
+    "Company":"GPS Taller - Empresa Maipu SRL",
+    "Address":"San Martín 557",
+    "Phone":"0810-222-2478",
+    "Website":"https://gpstaller.com.ar/",
+    "imageurl":"https://gpstaller.com.ar/img/GPStaller.png"
+            
+    },
+    {
+    "Company":"Limpiasol",
+    "Address":"Patricias Argentinas 851",
+    "Phone":"4975620",
+    "Website":"http://limpiasol.com.ar/",
+    "imageurl":"http://limpiasol.com.ar/sitio/wp-content/uploads/2016/09/limpiasol-web-1.png"
+                
+    },
+    {
+    "Company":"Inmax",
+    "Address":" Guevara 3370",
+    "Phone":"261 6084487",
+    "Website":"https://www.inmax.com.ar/",
+    "imageurl":"https://www.inmax.com.ar/images/logo.png"
+                    
+    },
+    {
+    "Company":"Enfer",
+    "Address":"Alsina 1661, Maipú, Mendoza",
+    "Phone":"0261 - 4765767 ",
+    "Website":"http://www.enfersa.com.ar/",
+    "imageurl":"http://www.enfersa.com.ar/wp-content/uploads/2019/07/LOGOTINYLETRAS.jpg"
+                        
+    },
+    {
+    "Company":"Macar",
+    "Address":"Jesús Nazareno 4150",
+    "Phone":"0261 493-2190",
+    "Website":"http://macar.com.ar/",
+    "imageurl":"http://macar.com.ar/wp-content/uploads/2022/07/logo.png"
+                            
+    },
+    {
+    "Company":"Gencoelec",
+    "Address":" Ozamis 200 esquina Belgrano",
+    "Phone":"497-2113",
+    "Website":"https://gencoelec.com/",
+    "imageurl":"https://gencoelec.com/wp-content/uploads/2018/11/LOGO-GENCOELEC.jpeg"
+                                
+    }
+
+    ]
+}
