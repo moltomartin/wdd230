@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(224, 248, 202);
+    text-align: center;
+    
+}
+h1{
+    font-family: 'Mukta', sans-serif;
+    color: #1919ecb3;
+}
+
+h2{
+    font-family: 'Mukta', sans-serif;
+    color: #1919ecb3; 
+}
+p{
+    color: #05795c;
+}
+.iconweather{
+    width: 100px;
+    height: auto;
+    background-color: rgb(76, 45, 133);
+    border-radius: 5px;
+}
+footer{
+    padding-top: 350px;
+}
