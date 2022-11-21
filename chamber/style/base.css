@@ -149,11 +149,16 @@ main{
     margin-bottom: 5px;
     background-color: #cdcbc9cf;
 }
-.weather{
-    border:#F24236 solid 1px;
-    padding-bottom: 170px;
+.weather-box{
+    border:#F24236 solid 2px;
+    padding-bottom: 90px;
     margin-bottom: 5px;
-    background-color: #cdcbc9cf;
+    background-color: #2E86AB;
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 12px;
+    text-align: left;
 }
 .join{
     border:#F24236 solid 1px;

@@ -51,10 +51,15 @@
         </div>
         <div class="news">News Release</div>
         <div class="event">Event</div>
-        <div class="weather">Weather
-            <picture>
-                <img src="image/weather.png" alt="weather">
-            </picture>
+        <div class="weather-box">
+            <h1>Weather</h1>
+            <img src="#" alt="" id="weather-icon">
+            <p class="actual-temperature"><span id="current-temperature"></span>F°</p>
+            <b id="fig-caption"></b>
+            <div>
+                <p>Wind Speed: <span class="windVelocity"></span>mph</p>
+                <p>Wind Chill: <span class="windChill"></span></p>
+            </div>
         </div>
         <div class="join">Join</div>
         <div class="spotlight">
@@ -79,6 +84,7 @@
         <p>Last Updated: <span id="currentDate"></span></p></div>
 
     <script src="script/script.js"></script>
+    <script src="script/weather.js"></script>
  </footer>
 </body>
 </html>
