@@ -123,7 +123,7 @@ main{
 }
 
 .hero{
-    border:#F24236 solid 2px;
+    border:#F24236 solid 1px;
   
     margin-bottom: 5px;
     background-color: #cdcbc9cf;
@@ -138,19 +138,48 @@ main{
 }
 
 .news{
-    border:#F24236 solid 2px;
+    border:#F24236 solid 1px;
     padding-bottom: 170px;
     margin-bottom: 5px;
-    background-color: #cdcbc9cf;
+    color: white;
+    text-align: center;
+    
+}
+.news img{
+    width: 410px;
+    height: 260px;
+    position: relative;
+   
+    border-radius: 5px;
+}
+.news p{
+    position: relative;
+    
+    width: 80%;
+    background-color: #2E86AB;
+    opacity: 75%;
+    border-radius: 5px;
+
 }
 .event{
-    border:#F24236 solid 2px;
-    padding-bottom: 170px;
+    border:#F24236 solid 1px;
     margin-bottom: 5px;
-    background-color: #cdcbc9cf;
+    margin-right: 5px;
+}
+.event img{
+    width: 410px;
+    height: 380px;
+   
+
+}
+.event h2{
+    color: white;
+    position: relative;
+    bottom:320px;
+    left: 70px;
 }
 .weather-box{
-    border:#F24236 solid 2px;
+    border:#F24236 solid 1px;
     padding-bottom: 90px;
     margin-bottom: 5px;
     background-color: #2E86AB;
@@ -162,15 +191,23 @@ main{
     border-radius: 5px;
 }
 .join{
-    border:#F24236 solid 2px;
-    padding-bottom: 170px;
+    border:#F24236 solid 1px;
     margin-bottom: 5px;
-    background:url();
+    background-color: #2E86AB;
+    color:white;
 }
 .pjoin{
 font-size: 14px;
 text-align: center;
-padding-top: 50px;
+padding-top: 5px;
+position: relative;
+bottom: 100px;
+background-color:#2E86AB;
+opacity: 75%;
+border: black 0.5px solid;
+width: 90%;
+border-radius: 5px;
+text-shadow: white;
 }
 .joinbottom{
     background-color: #F24236;
@@ -182,23 +219,29 @@ padding-top: 50px;
     font-size: 2rem;
     text-decoration: none;
     color: white;
+    bottom: 238px;
+    position: relative;
+}
+.join img{
+    width: 409px;
+    height: 301px;
 }
 
 .spotlight{
-    border:#F24236 solid 2px;
+    border:#F24236 solid 1px;
     padding-bottom: 80px;
     margin-bottom: 5px;
     background-color:#2E86AB ;
 }
 .spot1 {
-    border:#F24236 solid 2px;
+    border:#F24236 solid 1px;
     margin: 10px auto 10px auto;
     padding-bottom: 120px;
     width: 90%;
     background-color: #F6F5AE;
 }
 .spot2{
-    border:#F24236 solid 2px;
+    border:#F24236 solid 1px;
     margin: 4px auto;
     padding-bottom: 120px;
     width: 90%;
@@ -216,7 +259,7 @@ footer{
     text-align: center;
 }
 .direction{
-    border-bottom: #F24236 solid 2px;
+    border-bottom: #F24236 solid 1px;
     margin-bottom: 10px;
     padding-bottom: 10px;
 }

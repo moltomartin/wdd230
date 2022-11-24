@@ -85,6 +85,20 @@ header h1{
         grid-column: 1/2;
        grid-row: 1/2;
        border-radius: 5px;
+       margin-right: 5px;
+       padding: 0;
+       margin-right: 15px;
+    }
+    .event img{
+        border-radius: 5px;
+        width: 295px;
+        height: 206px;
+        position:relative;
+    }
+    .event h2{
+        position: relative;
+        bottom: 190px;
+        left: 50px;
     }
     .weather{
         grid-column: 1/2;
@@ -103,11 +117,33 @@ header h1{
     .joinbottom{
         margin: 65px;
     }
+    .join img{
+        width: 302px;
+        height: 243px;
+        border-radius: 5px;
+    }
     .news{
         grid-column: 2/3;
        grid-row: 3/4;
        border-radius: 5px;
        
+    }
+    .news img{
+        width: 900px;
+        height: 240px;
+    }
+    .news p{
+        font-size: 14px;
+        text-align: center;
+        padding-top: 5px;
+        position: relative;
+        bottom: 50px;
+        background-color:#2E86AB;
+        opacity: 75%;
+       border: black 0.5px solid;
+       width: 90%;
+       border-radius: 5px;
+       text-shadow: white;
     }
     .spotlight{
     grid-column: 3/4;
