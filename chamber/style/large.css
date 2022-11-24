@@ -55,7 +55,9 @@ header h1{
    .last{
     border-right: none;
   }
-   
+   footer{
+    width: 100%;
+   }
 
 /*-----------------------------------------------------------------*/
 
@@ -81,6 +83,7 @@ header h1{
     
  }
 
+
     .event{
         grid-column: 1/2;
        grid-row: 1/2;
@@ -88,6 +91,8 @@ header h1{
        margin-right: 5px;
        padding: 0;
        margin-right: 15px;
+       width: 295px;
+       height: 206px;
     }
     .event img{
         border-radius: 5px;
@@ -100,25 +105,40 @@ header h1{
         bottom: 190px;
         left: 50px;
     }
-    .weather{
+    .weather-box{
         grid-column: 1/2;
         grid-row: 2/3;
         padding: 0 2px;
         font-size: 12px;  
         border-radius: 5px;
-    
+        width: 295px;
+        height: 206px;
+        padding: 0;
     }
     .join{
         grid-column: 1/2;
        grid-row: 3/4;
        border-radius: 5px;
-      
+       width: 295px;
+        height: 243px;
     }
-    .joinbottom{
-        margin: 65px;
-    }
+        .joinbottom{
+            background-color: #F24236;
+            border: #2E86AB 1.5px solid;
+            margin:125px;
+            border-radius: 5px;
+            padding: 0px 50px;
+            text-align: center;
+            font-size: 2rem;
+            text-decoration: none;
+            color: white;
+            bottom: 238px;
+            right: 60px;
+            position: relative;
+        }
+    
     .join img{
-        width: 302px;
+        width: 295px;
         height: 243px;
         border-radius: 5px;
     }
@@ -127,10 +147,11 @@ header h1{
        grid-row: 3/4;
        border-radius: 5px;
        
+       height: 243px;
     }
     .news img{
         width: 900px;
-        height: 240px;
+        height: 243px;
     }
     .news p{
         font-size: 14px;

@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-width: 100%;
+width: 100;
 height: auto;
 margin: 0 auto;
 font-family: 'Arvo', serif;
@@ -13,7 +13,7 @@ font-family: 'Arvo', serif;
     background-color:#2E86AB;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
     border:none;
     border-radius: none;
 
@@ -22,6 +22,7 @@ header{
     width: 100%;
     display: flex;
     background-color: #2E86AB;
+
 }
 .logo{
     width: auto;
@@ -50,6 +51,7 @@ header h1{
     font-family: 'Open Sans', sans-serif; 
     display: flex;
     color: white;
+    
 }
 .currentdate{
     width: 100%;
@@ -73,6 +75,8 @@ nav{
     border-radius: 5px;
     border: solid 1.5px #565554;
     padding: 0 2px;
+    
+    
     
 }
 nav ul{
@@ -124,37 +128,43 @@ main{
 
 .hero{
     border:#F24236 solid 1px;
-  
+   border-radius: 5px;
     margin-bottom: 5px;
     background-color: #cdcbc9cf;
+    width: 409px;
+    height: 301px;
 }
 .hero img{
-    
-    width: 100%;
-    height: auto ;
+    border-radius: 5px;
+    width: 409px;
+    height: 301px;
     display: block;
     object-fit: cover;
+    position: relative;
     
 }
 
+
 .news{
     border:#F24236 solid 1px;
-    padding-bottom: 170px;
+    border-radius: 5px;
     margin-bottom: 5px;
     color: white;
     text-align: center;
+    width: 409px;
+    height: 301px;
     
 }
 .news img{
-    width: 410px;
-    height: 260px;
+    width: 409px;
+    height: 301px;
     position: relative;
    
     border-radius: 5px;
 }
 .news p{
     position: relative;
-    
+    bottom: 100px;
     width: 80%;
     background-color: #2E86AB;
     opacity: 75%;
@@ -165,36 +175,44 @@ main{
     border:#F24236 solid 1px;
     margin-bottom: 5px;
     margin-right: 5px;
+    padding: 0;
+    border-radius: 5px;
+    width: 409px;
+    height: 301px;
 }
 .event img{
-    width: 410px;
-    height: 380px;
-   
+    width: 409px;
+    height: 301px;
+   border-radius: 5px;
 
 }
 .event h2{
     color: white;
     position: relative;
-    bottom:320px;
-    left: 70px;
+    bottom:290px;
+    left: 90px;
 }
 .weather-box{
     border:#F24236 solid 1px;
-    padding-bottom: 90px;
+    padding-bottom: 50px;
     margin-bottom: 5px;
     background-color: #2E86AB;
     color: white;
-    padding-left: 80px;
-    padding-right: 80px;
+   
     font-size: 12px;
-    text-align: left;
+    text-align: center;
     border-radius: 5px;
+    width: 409px;
+    height: 301px;
 }
 .join{
     border:#F24236 solid 1px;
+    border-radius: 5px;
     margin-bottom: 5px;
     background-color: #2E86AB;
     color:white;
+    width: 409px;
+    height: 301px;
 }
 .pjoin{
 font-size: 14px;
@@ -219,22 +237,28 @@ text-shadow: white;
     font-size: 2rem;
     text-decoration: none;
     color: white;
-    bottom: 238px;
+    bottom: 290px;
+    right: 30px;
     position: relative;
 }
 .join img{
     width: 409px;
     height: 301px;
+    border-radius: 5px;
 }
 
 .spotlight{
     border:#F24236 solid 1px;
+    border-radius: 5px;
     padding-bottom: 80px;
     margin-bottom: 5px;
     background-color:#2E86AB ;
+    width: 409px;
+    
 }
 .spot1 {
     border:#F24236 solid 1px;
+    border-radius: 5px;
     margin: 10px auto 10px auto;
     padding-bottom: 120px;
     width: 90%;
@@ -242,6 +266,7 @@ text-shadow: white;
 }
 .spot2{
     border:#F24236 solid 1px;
+    border-radius: 5px;
     margin: 4px auto;
     padding-bottom: 120px;
     width: 90%;
@@ -257,6 +282,8 @@ footer{
     padding: 10px 0;
     margin-top: 20px;
     text-align: center;
+    width: 409px;
+    
 }
 .direction{
     border-bottom: #F24236 solid 1px;
