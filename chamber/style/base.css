@@ -123,7 +123,7 @@ main{
 }
 
 .hero{
-    border:#F24236 solid 1px;
+    border:#F24236 solid 2px;
   
     margin-bottom: 5px;
     background-color: #cdcbc9cf;
@@ -138,13 +138,13 @@ main{
 }
 
 .news{
-    border:#F24236 solid 1px;
+    border:#F24236 solid 2px;
     padding-bottom: 170px;
     margin-bottom: 5px;
     background-color: #cdcbc9cf;
 }
 .event{
-    border:#F24236 solid 1px;
+    border:#F24236 solid 2px;
     padding-bottom: 170px;
     margin-bottom: 5px;
     background-color: #cdcbc9cf;
@@ -159,33 +159,54 @@ main{
     padding-right: 80px;
     font-size: 12px;
     text-align: left;
+    border-radius: 5px;
 }
 .join{
-    border:#F24236 solid 1px;
+    border:#F24236 solid 2px;
     padding-bottom: 170px;
     margin-bottom: 5px;
-    background-color: #cdcbc9cf;
+    background:url();
 }
+.pjoin{
+font-size: 14px;
+text-align: center;
+padding-top: 50px;
+}
+.joinbottom{
+    background-color: #F24236;
+    border: #2E86AB 1.5px solid;
+    margin:125px;
+    border-radius: 5px;
+    padding: 0px 50px;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
 .spotlight{
-    border:#F24236 solid 1px;
+    border:#F24236 solid 2px;
     padding-bottom: 80px;
     margin-bottom: 5px;
-    background-color: #cdcbc9cf;
+    background-color:#2E86AB ;
 }
 .spot1 {
-    border:#F24236 solid 1px;
+    border:#F24236 solid 2px;
     margin: 10px auto 10px auto;
     padding-bottom: 120px;
     width: 90%;
+    background-color: #F6F5AE;
 }
 .spot2{
-    border:#F24236 solid 1px;
+    border:#F24236 solid 2px;
     margin: 4px auto;
     padding-bottom: 120px;
     width: 90%;
+    background-color: #F6F5AE;
 }
 .spot3{
     display: none;
+    background-color: #F6F5AE;
 }
 footer{
     background-color: #2E86AB;
