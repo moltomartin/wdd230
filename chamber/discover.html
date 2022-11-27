@@ -37,9 +37,49 @@
     
  </header>
  <p class="currentdate"><strong><span id="currentDate01"></span></strong></p>
-<main class="maindiscover">
+<main>
+    <section class="initial-discover">
   <h2>Maipú</h2>
   <p>A place of olive trees, a place of vineyards...</p>
+</section>
+  <section class="content_discover">
+    <div class="population">
+        <h2>Department of Maipú</h2>
+        <p> It is part of Greater Mendoza, constituting itself as the extension of the agglomerate to the southeast of it.</p>
+        <p> It is the "Cradle of Wine" and together with Luján de Cuyo, it forms the main winery center of the province, with numerous 
+            historical and current wineries.</p>
+        
+        </div>
+    
+    <div class="location">
+        <h2>Maipú Location</h2>
+   
+       <img src="image/maipumap.webp" alt="Maipú Map">   
+    </div>
+   
+    <div class="img_gallery">
+        <h2>Image Gallery</h2>
+        <div class="img_content">
+            <picture>
+              
+                <img class="gallery"  src="https://via.placeholder.com/300x400.png?text=placeholder" data-src='image/plaza.webp' alt='plaza'>
+           </picture>
+            <picture>
+                
+                <img class="gallery" src="https://via.placeholder.com/300x400.png?text=placeholder" data-src='image/ecomuseo.webp' alt='ecomuseo'>
+            </picture>
+            <picture>
+               
+                <img class="gallery" src="https://via.placeholder.com/300x400.png?text=placeholder" data-src='image/metropolitanpark.webp' alt='park'>
+            </picture>
+            </div>    
+            </div>
+        </section>
+        <section class="local-storage-warning-box">
+            Number of visits: <span class="visits"></span><br>
+            <span class="days-passed"></span> 
+            <span class="today"></span><br>
+        </section>
 </main>
  <footer>
     <img class="logo2" src="image/maipulogo.webp" alt="Maipú">
@@ -56,6 +96,8 @@
         <p>Last Updated: <span id="currentDate"></span></p></div>
 
     <script src="script/script.js"></script>
+    <script src="script/totalStorage.js"></script>
+    <script src="script/lazyload.js"></script>
  </footer>
 </body>
 </html>

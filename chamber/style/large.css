@@ -235,8 +235,24 @@ margin-top: 10px;
 .direction{
     border-bottom: none;
 }
+
+/*------discover----*/
+.content_discover {
+    grid-template-columns: 70% 30%;
+}
+.location img{
+    width: 50%;
+    height: auto;
+    margin-left: 230px;
+}
+.img_gallery img {
+    margin-left: 25px;
+    border-radius: 5px;
 }
 
+h1{
+    text-align: center;
+}
 /*------join------*/
 
     .form_page {
@@ -264,3 +280,45 @@ margin-top: 10px;
 .abc {
         margin-left: 20px;
     }
+
+/*------contact-------*/
+.contact-us{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.littlemap{
+    width: 700px;
+    height: 500px;
+    margin-right: 50px;
+    grid-template-columns: 1/2;
+}
+.contacinfo{
+    grid-template-columns: 2/3;
+    width: 85%;
+    background-color: white;
+    border: none;
+}
+.contacinfo h2{
+    background-color: #F24236;
+    padding: 5px 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 2.2em;
+}
+.contacinfo h3{
+    color: black;
+    font-size: 1.5em;
+
+}
+.contacinfo p{
+    color: black;
+    font-size: 1.2em;
+}
+.map{
+    width: 85%;
+    background-color: white;
+    border: none;
+}
+
+}
