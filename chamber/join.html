@@ -17,7 +17,7 @@
 </head>
 <body>
  <header>
-    <img class="logo" src="image/maipulogo.webp" alt="Maipú">
+    <a href="index.html"><img class="logo" src="image/maipulogo.webp" alt="Maipú"></a>
     <h1>Maipú Chamber of Commerce</h1>
     <div class="social">
         <a href="https://facebook.com"><img src="image/facebookicon.png" alt="Facebook Page"></a>
@@ -45,9 +45,9 @@
                 <legend>Applicant Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required="required"></label>
                 <label class="top">Last Name* <input type="text" name="lname" required="required"></label>
-                <label class="top">Bussines Position Title <input type="text" minlength="7"></label>
+                <label class="top">Bussines Position Title<input type="text" name="position" placeholder="Manager" class="pattern" pattern="[a-zA-Z\- ]{7,}" minlength="7" title="only accepts aplha characters, hyphens and spaces"></label>
                 <label class="top">Email* <input type="email" name="email" placeholder="example@mail.com" required="required"></label>
-                <label class="top">Phone* <input type="tel" minlength="7" name="phone" placeholder="1234567890" required></label>
+                <label class="top">Phone* <input type="tel" minlength="7" name="phone" placeholder="1234567890" required="required"></label>
                 <label class="top">Bussines Title* <input type="text" name="bussines" required="required"></label>
             </fieldset>
             <fieldset>
@@ -110,7 +110,8 @@
         <div class="contact_info">
             <p class="page">info@maipuchamber.com ✉</p>
             <p class="phone">+54261 - 1231231232 📞</p>
-            <p class="direction">Location 📍</p>
+            <p class="direction"><a href="https://goo.gl/maps/NnnSwyqfQ5PbYPf57">Location 📍</a></p>
+            
         </div>
     <div id="year"><p>© |Maipú Chamber of Commerce | Martin Moltó | WDD 230 Project |
         <p>Last Updated: <span id="currentDate"></span></p></div>
