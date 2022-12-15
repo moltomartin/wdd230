@@ -1,0 +1,221 @@
+*{
+    margin:0 auto;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: black;
+    }
+    
+header{    
+        width: 100%;
+        display: flex;
+        background-color: #603140;
+    }
+
+.logo{
+    width: 70px;
+    height: auto;
+    margin: 5px 5px 5px 0px;
+    box-shadow: 6px 6px 6px #1d1c1c;
+    border-radius: 7px;
+   }
+   #hamburgerBtn{
+    color: white;
+    
+   }
+
+.social img{
+    width: 25px;
+    height: auto;
+    background-color: white;
+    align-items: center;
+    margin: 5px 5px 0 0;
+    border-radius: 7px;
+ }
+ h1{
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+    background-color: #603140;
+    font-family: 'Libre Caslon Text', serif;
+}
+
+ nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border:none;
+    font-size: 1rem;
+    
+}
+nav{
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color:#957964;
+    border-radius: 5px;
+    border: solid 1.5px #0e0d0d;
+    text-align: center; 
+    color: white;
+}
+nav ul{
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    
+}
+nav ul.open{
+    display: block;
+    
+}
+
+nav ul li {
+    text-align: center; 
+    box-sizing: border-box;
+    color: white;
+   
+}
+nav ul li :hover{
+    background-color:rgb(115, 162, 35);
+    color: white;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: .8rem 2vw;
+    border-top:1px solid rgba(0, 0, 0, 0.5);   
+    
+}
+
+nav ul li a:link, nav ul li a:visited{
+    color: white;
+    display: block;
+    padding: 5px 0;
+}
+
+nav ul li.active a{
+    background-color:blue;
+    color: white;
+}
+
+#hamburgerBtn span:nth-child(1){display: block;}
+#hamburgerBtn span:nth-child(2){display: none;}
+
+#hamburgerBtn.open span:nth-child(1){display: none;}
+#hamburgerBtn.open span:nth-child(2){display: block;}
+main{
+    background-color:blanchedalmond;
+    padding: 5px 0;
+}
+.losangeles{
+    border: 1px solid #957964;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 90%;
+    text-align: center;
+    padding: 5px;
+}
+.ima{
+    text-align: center;
+}
+.ima img{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 5px;
+    
+}
+.playa{
+    text-align: center;
+}
+.playa img{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.weather{
+    text-align: center;
+}
+#weather-icon{
+    width: 100px;
+}
+.weather-icon{
+    width: 70px;
+}
+.condition{
+    border: 1px solid black;
+    width: 70%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.days{
+    border: 1px solid black;
+    width: 70%;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Libre Caslon Text', serif;
+}
+
+.button{
+    background-color: #603140;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.direction{
+    color: white;
+}
+
+footer{
+    margin-top: 10px;
+    background-color: #603140;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+/*-------- Abaut Us-------*/
+.map{
+    margin: 10px auto;
+    text-align: center;
+}
+iframe{
+    border-radius: 5px;
+    box-shadow: black 3px 3px;
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+}
+
+/*-----Fresh-------*/
+#form-section{
+    background-color: #7df4d3;
+    margin-left: 15px auto;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+#drink-form{
+    text-align:center;
+}
+#submit{
+    text-align: center;
+    background-color:rgb(169, 162, 162);
+    padding: 3px;
+    font-size: 0.5em;
+
+}
+

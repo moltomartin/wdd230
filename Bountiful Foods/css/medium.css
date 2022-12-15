@@ -1,0 +1,149 @@
+@media only screen and (min-width: 35rem){
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    }
+.logo{
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.social img{
+    width: 60px;
+    height: auto;
+    grid-column:2/3;
+    grid-row: 2;
+    margin-top: 20px;
+    margin-right: 10px;
+ }
+h1{
+    font-size: 2em;
+}
+nav{
+    font-size: 1.4em;
+    width: 100%;
+    border-radius: 5px;
+    grid-column: 1/4;
+    padding: 10px 0;
+}
+nav button{
+    display: none;
+}
+nav ul{
+    display: flex;
+    overflow:hidden;
+    padding: 5px 0;
+}
+nav ul li a{
+    border-top:none;
+
+}
+.weather{
+    width: 80%;
+
+}
+
+/*----about Us---------*/
+
+
+iframe{
+    width: 80%;
+    height: auto;
+    box-shadow: black 5px 5px;
+}
+
+.history{
+
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    padding: 5px;
+
+}
+.contacinfo{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*-----Fresh-------*/
+
+#form-section{
+    font-size: 1.8em;
+    
+
+}
+#fname{
+    font-size: 0.9em;
+    margin: 10px;
+}
+#lname{
+    font-size: 0.9em;
+    margin:10px;
+}
+#email{
+    font-size: 0.9em;
+    margin: 10px;
+}
+#tel{
+    margin: 10px;
+    font-size: 0.9em;
+}
+#fruit1{
+    font-size: 0.8em;
+}
+#fruit2{
+    font-size: 0.8em;
+}
+#fruit3{
+    font-size: 0.8em;
+}
+#special-instructions{
+    font-size: 0.9em;
+}
+#load-date-time{
+    font-size: 0.9em;
+}
+
+#submit{
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
