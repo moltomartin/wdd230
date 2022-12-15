@@ -203,7 +203,7 @@ iframe{
 /*-----Fresh-------*/
 #form-section{
     background-color: #7df4d3;
-    margin-left: 15px auto;
+    margin: 15px auto;
     border: 2px solid black;
     border-radius: 8px;
     font-size: 1.2em;
