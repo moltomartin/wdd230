@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+background-color: black;
+color: orange;
+}
+picture img{
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgb(176, 166, 166) 3px 3px 0 0;
+    margin-bottom:10px ;
+}
+section{
+    color: orange;
+    
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+section ul li{
+    text-align: left;
+}
+section a{
+    color: black;
+    background-color: white;
+    padding: 2px;
+}
+
+
+.wf  :hover{
+    color: bisque;
+}
+
+.itp :hover{
+    color: bisque; 
+}
+.vm :hover{
+    color: bisque;
+}
+.wfd :hover{
+    color: bisque;
+}
+
+h3{
+    text-decoration: underline ;
+}
+.wf{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid orange;
+    padding: 5px;
+}
+.itp{
+    width: 90%;
+    border: 1px solid orange;
+    text-align: center;
+    padding: 5px;
+    margin: 10px auto;
+}
+.vm{
+    width: 90%;
+    border: 1px solid orange;
+    text-align: center;
+    padding: 5px;
+    margin: 10px auto; 
+}
+.wfd{
+    width: 90%;
+    border: 1px solid orange;
+    text-align: center;
+    padding: 5px;
+    margin: 10px auto;
+}
+#objetivesBtn span:nth-child(1){display: block;}
+#objetivesBtn span:nth-child(2){display: none;}
+
+#objetivesBtn.open span:nth-child(1){display: none;}
+#objetivesBtn.open span:nth-child(2){display: block;}
