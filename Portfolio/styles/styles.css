@@ -72,8 +72,7 @@ h3{
     padding: 5px;
     margin: 10px auto;
 }
-#objetivesBtn span:nth-child(1){display: block;}
-#objetivesBtn span:nth-child(2){display: none;}
-
-#objetivesBtn.open span:nth-child(1){display: none;}
-#objetivesBtn.open span:nth-child(2){display: block;}
+footer img{
+    widht:20%;
+    heigt:auto;
+}
