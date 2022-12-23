@@ -4,5 +4,9 @@ picture img{
     width: 20%;
     height: auto;
 }
+footer img{
+    width:5%;
+    height:auto;
+}
 
 }
